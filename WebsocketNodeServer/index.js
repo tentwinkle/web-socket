@@ -27,7 +27,7 @@ io.on('connection', (socket) => {
         // console.log(`Server received ${data} is typing`);
         // console.log('need to inform all the clients about this');
         io.sockets.emit('typing', data);
-        socket.broadcast.emit('typing', data);
+        //socket.broadcast.emit('typing', data);
     });
 
 });
