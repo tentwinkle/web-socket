@@ -1,0 +1,13 @@
+<div id="chat-applicaton">
+    <h2>Chat Application - Angular client</h2>
+    <div id="chat-window">
+      <div id="output" *ngFor="let data of output">
+          <p><strong>{{data.handle}} : </strong>{{data.message}}</p>
+      </div>
+      <div id="feedback"><p>{{feedback}}</p></div>
+    </div>
+    <input id="handle" type="text" [(ngModel)]="userName" placeholder="Handle" />
+    <input id="message" type="text" [(ngModel)]="message" placeholder="Message" autocomplete="off"
+      (keypress)="messageTyping()" />
+    <button type="button" id="send" style="cursor: pointer;" (click)="sendMessage()">Send</button>
+</div>
