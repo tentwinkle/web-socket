@@ -5,16 +5,16 @@ Web sockets - Chat application in Node.js
 # Starting Node.js Server using socket.io
 
 Goto -> "WebsocketNodeServer" Folder
-- Run the below commands
-npm i
-node index.js
+Run the below commands
+- npm i
+- node index.js
 
 # Running the client chat app in angular
 
 Goto -> "Angular Client - end" Folder
-- Run the below commands
-npm i
-npm start
+Run the below commands
+- npm i
+- npm start
 
 Browse : http://localhost:4200
 
