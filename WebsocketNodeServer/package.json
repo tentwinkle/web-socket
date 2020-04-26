@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamshaunjp/websockets-playlist.git"
+    "url": ""
   },
   "author": "The Net Ninja",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iamshaunjp/websockets-playlist/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/iamshaunjp/websockets-playlist#readme",
+  "homepage": "",
   "dependencies": {
     "express": "^4.15.2",
     "socket.io": "^1.7.3"
