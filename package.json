@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/iamshaunjp/websockets-playlist#readme",
   "dependencies": {
-    "express": "^4.15.2",
+    "express": "^4.18.2",
     "socket.io": "^1.7.3"
   },
   "devDependencies": {
